@@ -1,14 +1,20 @@
 import React from "react";
 import classes from "./Restaurant.module.css";
 import useRestaurant from "Talons/Restaurant";
-import { RestaurantContent } from "Components";
+import { RestaurantContent, ReviewForm } from "Components";
 
 const Restaurant = () => {
     const { restaurant } = useRestaurant();
 
     return (
         <div className={classes.root}>
-            <RestaurantContent data={restaurant} />
+            <div className={classes.container}>
+                <RestaurantContent
+                    classes={{ root: classes.content }}
+                    data={restaurant}
+                />
+                <ReviewForm data={restaurant} />
+            </div>
         </div>
     );
 };

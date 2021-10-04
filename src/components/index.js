@@ -5,3 +5,5 @@ export { default as RestaurantList } from "./RestaurantList";
 export { default as Button } from "./Button";
 export { default as Map } from "./Map";
 export { default as RestaurantContent } from "./RestaurantContent";
+export { default as TextInput } from "./TextInput";
+export { default as ReviewForm } from "./ReviewForm";
