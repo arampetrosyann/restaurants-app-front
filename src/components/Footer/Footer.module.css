@@ -1,0 +1,38 @@
+.root {
+    display: flex;
+    width: 100%;
+    padding: 6px 22px;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--ui-colors-text);
+    background-color: var(--ui-colors-background);
+    font-size: 16px;
+}
+
+.copyright {
+    padding: 4px 9px;
+    padding-left: 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 4px 9px;
+    padding-right: 0;
+}
+
+.container:hover .createdBy {
+    text-decoration: underline;
+}
+
+.createdBy {
+    margin-right: 8px;
+}
+
+@media (max-width: 575.98px) {
+    .root {
+        flex-direction: column;
+    }
+}

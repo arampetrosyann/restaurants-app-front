@@ -1,0 +1,24 @@
+.root {
+    display: flex;
+    width: 100%;
+    min-height: 24px;
+    color: var(--ui-colors-text);
+    background: var(--ui-colors-background);
+    padding: 12px 22px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    column-gap: 12px;
+    cursor: pointer;
+}
+
+.title {
+    font-weight: 300;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

@@ -1,0 +1,29 @@
+.button {
+    background: none;
+    font-size: 16px;
+    padding: 8px 18px;
+    font-weight: 400;
+    color: #1f1d2b;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.primary {
+    background-color: #0066ff;
+    color: #fff;
+}
+
+.secondary {
+    background-color: #ffffff;
+    border: 1px solid #0066ff;
+}
+
+.iconOnly {
+    padding: 10px;
+}

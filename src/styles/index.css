@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: "Yaldevi";
+    font-style: normal;
+    font-weight: 200;
+    src: url("../fonts/yaldevi/Yaldevi-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Yaldevi";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/yaldevi/Yaldevi-Light.ttf");
+}
+
+@font-face {
+    font-family: "Yaldevi";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/yaldevi/Yaldevi-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Yaldevi";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/yaldevi/Yaldevi-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Yaldevi";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/yaldevi/Yaldevi-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Yaldevi";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/yaldevi/Yaldevi-Bold.ttf");
+}
+
+body {
+    font-family: "Yaldevi, sans-serif";
+    color: #1f1d2b;
+    background: #f0f0f0;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}

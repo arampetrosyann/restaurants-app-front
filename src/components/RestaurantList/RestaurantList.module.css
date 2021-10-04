@@ -1,0 +1,57 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    row-gap: 7px;
+    padding: 7px 16px;
+    border: 1.4px solid #919294;
+    background-color: #f7f6f5;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.name {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+}
+
+.rating {
+    color: #3e3f3f;
+    margin-bottom: 2px;
+}
+
+.address {
+    color: #3e3f3f;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 16px;
+}
+
+.pinIcon {
+    margin-bottom: 2px;
+    opacity: 0.8;
+}
+
+.timings {
+    font-size: 14px;
+    color: #3e3f3f;
+}
+
+.actions {
+    margin-top: 6px;
+}
